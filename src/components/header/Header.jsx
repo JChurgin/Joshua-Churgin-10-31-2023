@@ -6,7 +6,7 @@ import './header.css';
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-primary">
+    <Navbar className="bg-primary">
       <Container>
         <Navbar.Brand as={Link} to="/" className='text-light'>Abra-Weather-App</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
